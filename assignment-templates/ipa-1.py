@@ -44,7 +44,7 @@ def savings(gross_pay, tax_rate, expenses):
     take_home_pay = after_tax_pay - expenses
     centavo_pay = take_home_pay*100
     
-    return str(centavo_pay))
+    return str(centavo_pay)
     
 def material_waste(total_material, material_units, num_jobs, job_consumption):
     '''Material Waste.
